@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offpeak-itinerary"
+version = "0.1.0"
+description = "错峰线路配额协调器后端服务"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+py-modules = ["app", "migrate"]
